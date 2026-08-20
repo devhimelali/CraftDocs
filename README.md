@@ -31,3 +31,18 @@
 ```bash
 git clone [https://github.com/your-username/craftdocs.git](https://github.com/your-username/craftdocs.git)
 cd craftdocs
+```
+---
+
+## 📂 Project Structure
+
+```text
+craftdocs/
+├── app/                  # Next.js App Router pages and layouts
+├── components/           # Reusable UI components
+├── docs/                 # Your Markdown source files (.md)
+├── lib/                  # Markdown & file reading utilities (fs, gray-matter)
+├── public/               # Static assets (images, icons)
+├── package.json
+└── README.md
+```
