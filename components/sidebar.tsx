@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Document } from "@/types/document";
-export default function Sidebar({ docs }: { docs: Document[] }) {
+export default function Sidebar({ docs }: { docs: any }) {
   const roots = docs.filter((doc) => !doc.parent);
   console.log({ roots });
 
